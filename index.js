@@ -12,5 +12,11 @@ const tutorials = [
 ];
 
 const titleCased = () => {
+  tutorials.map(function(tutorial){
+    tutorial[0].toUpperCase()
+  })
   return tutorials
 }
+
+// let rollCall = students.map(function(student) {
+//   return student + " the wizard";
